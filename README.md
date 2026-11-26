@@ -5,3 +5,6 @@ Privilege escalation attack-surface scanner. Detects possible privilege escalati
 ```
 cl /EHsc /O2 rise.cpp advapi32.lib
 ```
+
+# Disclaimer 
+For authorised testing and research only.
