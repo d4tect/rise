@@ -43,20 +43,20 @@ owning service and work out whether the pipe actually controls anything you
 care about. See INVESTIGATION.md for how that's gone so far, including a few
 pipes that turned out to match real CVEs.
 
-## findings
+## Findings
 
 I keep a log of what each flagged pipe actually turned out to be in
 [INVESTIGATION.md](INVESTIGATION.md). So far rise has independently flagged
 pipes matching three published CVEs, plus a SYSTEM service that looked promising
 until I reversed the handler and found the pipe was sandboxed on purpose.
 
-## todo
+## TODO
 
 - resolve the owning process per pipe (GetNamedPipeServerProcessId) instead of
   "server pid unknown"
 - service DACLs and unquoted service paths
 - writable service directories and registry autoruns
 
-## note
+## Note
 
 Only run against machines you own.
