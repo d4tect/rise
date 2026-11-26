@@ -26,7 +26,7 @@ Developer Command Prompt for Visual Studio, then:
 
 ## Run
 
-Run it as a normal user, not admin. The point is to see what an unprivileged
+Run it as a normal user in a command prompt, not admin. The point is to see what an unprivileged
 process can reach.
 
     rise.exe
