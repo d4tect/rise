@@ -1,2 +1,2 @@
 # rise
-Privalege escaleaction sniffer thingy 
+Privilege escalation sniffer tool. Detects possible privilege escalation attack vectors.
